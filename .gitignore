@@ -1,0 +1,84 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+xcuserdata/
+xcuserdata/
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Xcode Server
+*.xccoverage
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Temporary files
+*.swp
+*.lock
+*.tmp
+*.orig
+*.rej
+*.bak
+
+# Logs
+*.log
+
+# Crash reports
+*.crash
+*.ips
+
+# Archives
+*.xcarchive
+
+# Playground support
+timeline.xctimeline
+playground.xcworkspace
+
+# User settings
+*.xcuserstate
+
+# SwiftPM Xcode project
+*.xcodeproj/project.xcworkspace/
+
+# Ignore .env and secrets
+.env
+*.key
+*.pem
+*.cer
+*.p12
+
+# Ignore custom local scripts/tools
+Scripts/build-local.sh
